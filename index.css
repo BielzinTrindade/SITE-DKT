@@ -8,10 +8,20 @@ body {
     background-image: url(https://lh3.googleusercontent.com/pw/AP1GczMArRKU2uQ-z702MOCDyuUTRkM-MOhKHeSBXy15eW5q1nG2Fai1vCUKVLVpy7-zb79Gt6CJpRjU3F8Di8XbTFJlc-n9ISupsBzVuoLL-dbjJHZRycCk7qP3YgWFHeS0Fg_igcBWdXdRXrkfzEUlr1SB=w1646-h926-s-no-gm?authuser=2);
     background-size: 1600px 900px;
     background-position: center 40px;
+    background-attachment: fixed;
     color: #000000;
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-image: url(https://lh3.googleusercontent.com/pw/AP1GczO_EM7fixCt2k4CPjy7fNeUtpVsnJDXe1rcnc8MZLXpw4e13rwF9zzUBxjHWwTx66xDfXuNCx3HdVh1RAl65jAyF3zCu2JdXQonhuW_XFONeEsMv9m2OnapgGu-eITtC51ErZgo6IAEeBLME99Zd1XEEg=w661-h926-s-no-gm?authuser=2);
+        background-size: cover;
+        background-position: center;
+    }   
 }
 
 header {
