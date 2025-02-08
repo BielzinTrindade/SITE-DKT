@@ -17,6 +17,13 @@ body {
     font-style: normal;
 }
 
+@media screen and (max-width: 767px) {
+    body {
+        background-color: yellow;
+        font-size: 16px;
+    }
+}
+
 header {
     padding: 1rem;
     background-color: #006215;
