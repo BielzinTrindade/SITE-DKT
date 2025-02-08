@@ -15,15 +15,6 @@ body {
     font-style: normal;
 }
 
-@media (max-width: 768px) {
-
-    body {
-        background-image: url(https://lh3.googleusercontent.com/pw/AP1GczO_EM7fixCt2k4CPjy7fNeUtpVsnJDXe1rcnc8MZLXpw4e13rwF9zzUBxjHWwTx66xDfXuNCx3HdVh1RAl65jAyF3zCu2JdXQonhuW_XFONeEsMv9m2OnapgGu-eITtC51ErZgo6IAEeBLME99Zd1XEEg=w661-h926-s-no-gm?authuser=2);
-        background-size: cover;
-        background-position: center;
-    }   
-}
-
 header {
     padding: 2rem;
     background-color: #002d62;
