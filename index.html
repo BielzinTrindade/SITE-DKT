@@ -30,12 +30,12 @@
         <nav>
             <button class="menu-button" onclick="toggleDrawer()">Menu</button>
             <div class="drawer" id="drawer">
-                <button onclick="window.location.href='../index.html'">Início</button>
-                <button onclick="window.location.href='navbar/buffet.html'">Buffet</button>
-                <button onclick="window.location.href='navbar/servicos.html'">Serviços</button>
-                <button onclick="window.location.href='navbar/contato.html'">Contato</button>
-                <button onclick="window.location.href='navbar/avaliacoes.html'">Avaliações</button>
-                <button onclick="window.location.href='navbar/galeria.html'">Galeria</button>
+                <button onclick="navigate('../index.html')">Início</button>
+                <button onclick="navigate('navbar/buffet.html')">Buffet</button>
+                <button onclick="navigate('navbar/servicos.html')">Serviços</button>
+                <button onclick="navigate('navbar/contato.html')">Contato</button>
+                <button onclick="navigate('navbar/avaliacoes.html')">Avaliações</button>
+                <button onclick="navigate('navbar/galeria.html')">Galeria</button>
             </div>
         </nav>
         <main>
@@ -46,6 +46,11 @@
                 var drawer = document.getElementById("drawer");
                 drawer.style.display = drawer.style.display === "block" ? "none" : "block";
             }
+
+            function navigate(url) {
+            window.location.href = url;
+            }
+
         </script>
     </body>
 </html>

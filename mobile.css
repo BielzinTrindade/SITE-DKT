@@ -40,7 +40,7 @@ nav {
 
 .menu-button {
     background-color: #003660;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 0.1rem;
     cursor: pointer;
@@ -64,7 +64,7 @@ nav {
     max-width: 31rem;
     margin: 5px auto;
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #003660;
     border: none;
     cursor: pointer;
