@@ -66,3 +66,16 @@ section {
 
 }
 
+/* Esconder no desktop */
+@media (min-width: 768px) {
+    .menu-button, .drawer {
+        display: none !important;
+    }
+}
+
+/* Esconder no mobile */
+@media (max-width: 768px) {
+    .navebar, .botão {
+        display: none !important;
+    }
+}

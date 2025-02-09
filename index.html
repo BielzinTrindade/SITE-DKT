@@ -16,24 +16,39 @@
         <header>
             <h1 class="contorno">Dkt Serviços e Buffet</h1>
         </header>
+
         <!--Navbar - Barra de Navegação-->
-        <nav class="navbar">
-            <a href="index.html" class="botão" id="inicioLink">Início</a>
-            <a href="Navbar/buffet.html" class="botão" id="BuffetLink">Buffet</a>
-            <a href="Navbar/servicos.html" class="botão" id="servicosLink">Serviços</a>
-            <a href="Navbar/contato.html" class="botão" id="contatoLink">Contato</a>
-            <a href="Navbar/avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
-            <a href="Navbar/galeria.html" class="botão" id="galeriaLink">Galeria</a>
+    <nav class="navbar">
+        <a href="../index.html" class="botão" id="inicioLink">Início</a>
+        <a href="Navbar/buffet.html" class="botão" id="BuffetLink">Buffet</a>
+        <a href="Navbar/servicos.html" class="botão" id="servicosLink">Serviços</a>
+        <a href="Navbar/contato.html" class="botão" id="contatoLink">Contato</a>
+        <a href="Navbar/avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+        <a href="Navbar/galeria.html" class="botão" id="galeriaLink">Galeria</a>
+    </nav>
+
+        <nav>
+            <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+            <div class="drawer" id="drawer">
+                <button onclick="window.location.href='../index.html'">Início</button>
+                <button onclick="window.location.href='navbar/buffet.html'">Buffet</button>
+                <button onclick="window.location.href='navbar/servicos.html'">Serviços</button>
+                <button onclick="window.location.href='navbar/contato.html'">Contato</button>
+                <button onclick="window.location.href='navbar/avaliacoes.html'">Avaliações</button>
+                <button onclick="window.location.href='navbar/galeria.html'">Galeria</button>
+            </div>
         </nav>
         <main>
-            <!--Subtítulo Da Pagina-->
-        
-
-            
         </main>
         <footer></footer>
+        <script>
+            function toggleDrawer() {
+                var drawer = document.getElementById("drawer");
+                drawer.style.display = drawer.style.display === "block" ? "none" : "block";
+            }
+        </script>
     </body>
-
+</html>
 
 
 

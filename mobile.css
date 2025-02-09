@@ -5,8 +5,8 @@
     box-sizing: border-box;}
 
 body {
-    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczO_EM7fixCt2k4CPjy7fNeUtpVsnJDXe1rcnc8MZLXpw4e13rwF9zzUBxjHWwTx66xDfXuNCx3HdVh1RAl65jAyF3zCu2JdXQonhuW_XFONeEsMv9m2OnapgGu-eITtC51ErZgo6IAEeBLME99Zd1XEEg=w661-h926-s-no-gm?authuser=2);
-    background-size: 1600px 900px;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczPtgRwRjyJjHj7B33-lDYq4GjKHx53qDJuBnL5wkDrbKcFDSEgfU4M-mC_aWjc34N7Rma9wLkXZJmy8QoHDfJXKSYWyQ8xfgl_H0DcdEgGABQZarNif65EBLErFGVDjmTXYHUWHtwvRtbeUoxc4WXDLtQ=w390-h844-s-no-gm?authuser=2);
+    background-size: cover;
     background-position: center 40px;
     background-attachment: fixed;
     color: #000000;
@@ -33,23 +33,50 @@ header {
     }
 
 nav {
-    padding: 0.5rem;
+    padding: 0.1rem;
     background-color: #003660;
     text-align: center;
 }
 
-nav a {
-    color: #ffbd59;
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-shadow:
-   -2px -2px 2px #000000,  
-    2px -2px 2px #000000,  
-   -2px  2px 2px #000000,  
-    2px  2px 2px #000000;
+.menu-button {
+    background-color: #003660;
+    color: white;
+    border: none;
+    padding: 0.1rem;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    max-width: 31rem;
+    margin: 0.1rem auto;
+    font-size: 18px;
+    text-align: center;
+}
 
+.drawer {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.drawer button {
+    display: block;
+    width: 100%;
+    max-width: 31rem;
+    margin: 5px auto;
+    padding: 10px;
+    color: white;
+    background-color: #003660;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-button.active, .drawer button.active {
+    background-color: #3a288d;
+}
+
+.drawer button:hover, .menu-button:hover {
+    background-color: #003660;
 }
 
 main {
@@ -65,4 +92,20 @@ section {
     gap: 1rem;
 
 }
+
+
+/* Esconder no desktop */
+@media (min-width: 768px) {
+    .menu-button, .drawer {
+        display: none !important;
+    }
+}
+
+/* Esconder no mobile */
+@media (max-width: 768px) {
+    .navebar, .botão {
+        display: none !important;
+    }
+}
+
 
