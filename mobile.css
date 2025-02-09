@@ -16,14 +16,14 @@ body {
 }
 
 header {
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: #002d62;
     text-align: center;
 }
 
     h1 {
     color: rgb(0, 0, 0); /* Cor do texto */
-    font-size: 2.8rem; /* Tamanho da fonte */
+    font-size: 2.2rem; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
     text-shadow: 
     -2px -2px 2px #ffbd59,  
@@ -60,7 +60,7 @@ nav {
 
 .drawer {
     display: none;
-    margin-top: 10px;
+    margin-top: 0.1rem;
     text-align: center;
 }
 
@@ -95,7 +95,7 @@ main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: rem;
 }
 
 section {
