@@ -49,10 +49,11 @@ nav {
     text-align: center;
     font-family: "Bree Serif", serif;
     text-shadow: 
-    -2px -2px 2px #ffbd59,  
-     2px -2px 2px #ffbd59,  
-    -2px  2px 2px #ffbd59,  
-     2px  2px 2px #ffbd59;
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+   
 }
 
 .drawer {
@@ -74,10 +75,10 @@ nav {
     font-size: 16px;
     font-family: "Bree Serif", serif;
     text-shadow: 
-    -2px -2px 2px #ffbd59,  
-     2px -2px 2px #ffbd59,  
-    -2px  2px 2px #ffbd59,  
-     2px  2px 2px #ffbd59;
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
 }
 
 .menu-button.active, .drawer button.active {
@@ -255,3 +256,201 @@ h2 {
             }
         }
         
+
+        /* Contêiner para os botões alinhados ao lado */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Alinha os botões com espaço entre eles */
+    gap: 0.1rem; /* Espaçamento entre os botões */
+}
+
+
+#festajunina {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://fly.metroimg.com/upload/q_85,w_1200/https://uploads.metroimg.com/wp-content/uploads/2023/05/23164050/1306-–-Festa-Junina-Ideias-de-comidas-tipicas-mais-saudaveis-1200x800-1.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+
+}
+
+
+#feijoada {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://cdn.blablacar.com/wp-content/uploads/br/2024/11/11162103/feijoada.webp"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#comidadeboteco {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://buffetdutsabore.com.br/wp-content/uploads/2024/09/buteco-4.jpeg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#coffeebreak {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://www.padariavianney.com.br/web/image/product.template/3404/image_1024?unique=347c53a"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#rodiziodepizza {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2019/06/pizza-2.jpg?w=900&quality=70&strip=all"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#bolosedoces {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://img.freepik.com/fotos-gratis/bolo-lindo-e-lanches-doces_181624-27093.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#mesadefrios {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://static.itdg.com.br/images/auto-auto/55ee5bc31561a96d813c2e35cec2050d/como-montar-uma-mesa-de-frios.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#aniversarioinfantil {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://cdn.awsli.com.br/800x800/2570/2570969/produto/209633770/5-jlahld.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#crepefrances {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/10/d9/62/ef/crepe-de-varios-sabores.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
+
+
+#churrasco {
+
+    display: inline-block;
+    width: 100px; /* Largura do botão */
+    height: 200px; /* Altura do botão */
+    background-image: url("https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/24/istock-1394934715-rh4zeatjvo84.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+
+}
