@@ -30,7 +30,7 @@ h1 {
     }
 
 nav {
-    padding: 0.5rem;
+    padding: 0.2rem;
     background-color: #003660;
     text-align: center;
 }
@@ -85,5 +85,132 @@ h2 {
 @media (max-width: 768px) {
     .navebar, .botão {
         display: none !important;
+    }
+}
+
+
+        /* AVALIAÇOES */
+        /* AVALIAÇOES */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+form {
+    background-color: #002d62;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffbd59;
+    background-color: #161718;
+    color: #ffbd59;
+    font-size: 1rem;
+}
+
+form button {
+    background-color:  #ffbd59;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Bree Serif", serif;
+}
+
+form button:hover {
+    background-color: #f59505;
+}
+
+
+
+/* AVALIAÇOES JÁ FEITAS */
+/* AVALIAÇOES JÁ FEITAS */
+
+
+#avaliacoesExibidas {
+    margin-top: 40px;
+}
+
+.avaliacao {
+    background-color: #002d62;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avaliacao h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+     padding: 0.2rem;
+}
+
+.avaliacao p {
+    font-size: 1.1rem;
+    color: #f8f8f8;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+     1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+     1px  1px 1px #000000;
+     padding: 0.2rem;
+}
+
+.avaliacao strong {
+    color: #000000;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+     padding: 0.2rem;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    h1.contorno {
+        font-size: 2.5rem;
+    }
+
+    nav.navbar a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 1rem;
     }
 }
