@@ -6,9 +6,9 @@
         <meta name="description" content="descrição teste">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- CSS padrão para desktop -->
-        <link rel="stylesheet" href="index.css" media="screen and (min-width: 768px)">
-        <!-- CSS para mobile -->
+                            <!-- CSS padrão para Desktop -->
+        <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 768px)">
+                            <!-- CSS para Mobile -->
         <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
         
     </head>
@@ -17,7 +17,7 @@
             <h1 class="contorno">Dkt Serviços e Buffet</h1>
         </header>
 
-        <!--Navbar - Barra de Navegação-->
+                        <!--Navbar Desktop - Barra de Navegação-->
     <nav class="navbar">
         <a href="index.html" class="botão" id="inicioLink">Início</a>
         <a href="Navbar/buffet.html" class="botão" id="BuffetLink">Buffet</a>
@@ -27,20 +27,24 @@
         <a href="Navbar/galeria.html" class="botão" id="galeriaLink">Galeria</a>
     </nav>
 
+                          <!--Navbar Mobile - Barra de Navegação-->
         <nav>
             <button class="menu-button" onclick="toggleDrawer()">Menu</button>
             <div class="drawer" id="drawer">
-                <button onclick="navigate('../index.html')">Início</button>
+                <button onclick="navigate('index.html')">Início</button>
                 <button onclick="navigate('Navbar/buffet.html')">Buffet</button>
                 <button onclick="navigate('Navbar/servicos.html')">Serviços</button>
                 <button onclick="navigate('Navbar/contato.html')">Contato</button>
                 <button onclick="navigate('Navbar/avaliacoes.html')">Avaliações</button>
-                <button onclick=>Galeria</button>
+                <button onclick="navigate('Navbar/galeria.html')">Galeria</button>
             </div>
         </nav>
-        <main>
-        </main>
-        <footer></footer>
+        
+        
+        <main></main>
+
+
+
         <script>
 
             function toggleDrawer() {
@@ -54,6 +58,9 @@
 
         </script>
     </body>
+
+    <footer></footer>
+
 </html>
 
 

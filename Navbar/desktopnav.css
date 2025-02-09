@@ -23,10 +23,10 @@ h1 {
     font-size: 2.8rem; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
     text-shadow: 
-    -2px -2px 2px rgb(255, 255, 255),  
-     2px -2px 2px rgb(255, 255, 255),  
-    -2px  2px 2px rgb(255, 255, 255),  
-     2px  2px 2px rgb(255, 255, 255);
+    -2px -2px 2px #ffbd59,  
+     2px -2px 2px #ffbd59,  
+    -2px  2px 2px #ffbd59,  
+     2px  2px 2px #ffbd59;
     }
 
 nav {
@@ -63,8 +63,27 @@ section {
 }
 
 h2 {
-    color: aliceblue;
+    color: #000000;
     font-size: 1.8rem;
     padding: 3rem;
     text-align: center;
+    text-shadow: 
+    -2px -2px 2px #ffbd59,  
+     2px -2px 2px #ffbd59,  
+    -2px  2px 2px #ffbd59,  
+     2px  2px 2px #ffbd59;
+}
+
+/* Esconder no desktop */
+@media (min-width: 768px) {
+    .menu-button, .drawer {
+        display: none !important;
+    }
+}
+
+/* Esconder no mobile */
+@media (max-width: 768px) {
+    .navebar, .botão {
+        display: none !important;
+    }
 }
