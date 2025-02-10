@@ -14,7 +14,7 @@ body {
 
 header {
     padding: 1.5rem;
-    background-color: #002d62;
+    background-color: #020b83;
     text-align: center;
 }
 
@@ -31,12 +31,12 @@ header {
 
 nav {
     padding: 0.1rem;
-    background-color: #003660;
+    background-color: #000000;
     text-align: center;
 }
 
 .menu-button {
-    background-color: #003660;
+    background-color: #000000;
     color: rgb(0, 0, 0);
     border: none;
     padding: 0.1rem;
@@ -69,7 +69,7 @@ nav {
     margin: 5px auto;
     padding: 10px;
     color: rgb(0, 0, 0);
-    background-color: #003660;
+    background-color: #000000;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -82,11 +82,11 @@ nav {
 }
 
 .menu-button.active, .drawer button.active {
-    background-color: #3a288d;
+    background-color: #fa1b1b;
 }
 
 .drawer button:hover, .menu-button:hover {
-    background-color: #003660;
+    background-color: #020b83;
 }
 
 main {

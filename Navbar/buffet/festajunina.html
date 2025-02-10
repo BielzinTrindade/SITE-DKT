@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa Junina</title>
+    <style>
+        body {
+            background: url('https://wallpaper.forfun.com/fetch/8b/8b29f499a2564a8cb43e1877bba4da47.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: black;
+            text-shadow: 2px 2px 0px #ffbd59, -2px -2px 0px #ffbd59, 2px -2px 0px #ffbd59, -2px 2px 0px #ffbd59;
+        }
+
+        p {
+            font-size: 20px;
+            text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
+        }
+
+        .container {
+            background: rgba(2, 11, 131, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 50px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .button {
+            background-color: #ffbd59;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #e0a24b;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            background: black;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        nav a:hover {
+            background: #ffbd59;
+            color: black;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festa Junina</h1>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <div class="container" id="about">
+        <h2>Sobre a Festa Junina</h2>
+        <p>A Festa Junina é uma das celebrações mais animadas do Brasil, marcada por danças típicas, comidas deliciosas e muita diversão!</p>
+        <button class="button" onclick="alert('Viva São João!')">Saiba Mais</button>
+    </div>
+    
+    <div class="container" id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/200x150/?festa" alt="Festa">
+            <img src="https://source.unsplash.com/200x150/?comida" alt="Comida Típica">
+            <img src="https://source.unsplash.com/200x150/?quadrilha" alt="Quadrilha">
+            <img src="https://source.unsplash.com/200x150/?bandeirinhas" alt="Bandeirinhas">
+        </div>
+    </div>
+    
+    <div class="container" id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre nossa festa junina!</p>
+        <button class="button" onclick="window.location.href='mailto:contato@festajunina.com'">Enviar E-mail</button>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Festa Junina - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
