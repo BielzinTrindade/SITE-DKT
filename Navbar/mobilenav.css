@@ -273,13 +273,19 @@ h2 {
     background-image: url("https://fly.metroimg.com/upload/q_85,w_1200/https://uploads.metroimg.com/wp-content/uploads/2023/05/23164050/1306-–-Festa-Junina-Ideias-de-comidas-tipicas-mais-saudaveis-1200x800-1.jpg"); /* Imagem de fundo */
     background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
-    color: white; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
+    font-size: 0.7rem;
     text-align: center; /* Alinha o texto no centro */
-    line-height: 50px; /* Alinha verticalmente o texto */
+    line-height: 380px; /* Alinha verticalmente o texto */
     text-decoration: none; /* Remove sublinhado do link */
     border-radius: 5px; /* Bordas arredondadas */
     margin-right: 10px; /* Espaço entre os botões */
     margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
 
 
 }
@@ -293,13 +299,19 @@ h2 {
     background-image: url("https://cdn.blablacar.com/wp-content/uploads/br/2024/11/11162103/feijoada.webp"); /* Imagem de fundo */
     background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
-    color: white; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
+    font-size: 0.7rem;
     text-align: center; /* Alinha o texto no centro */
-    line-height: 50px; /* Alinha verticalmente o texto */
+    line-height: 380px; /* Alinha verticalmente o texto */
     text-decoration: none; /* Remove sublinhado do link */
     border-radius: 5px; /* Bordas arredondadas */
     margin-right: 10px; /* Espaço entre os botões */
     margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
 
 }
 
@@ -309,16 +321,22 @@ h2 {
     display: inline-block;
     width: 100px; /* Largura do botão */
     height: 200px; /* Altura do botão */
-    background-image: url("https://buffetdutsabore.com.br/wp-content/uploads/2024/09/buteco-4.jpeg"); /* Imagem de fundo */
+    background-image: url("https://cdn.blablacar.com/wp-content/uploads/br/2024/11/11162103/feijoada.webp"); /* Imagem de fundo */
     background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
     background-position: center; /* Centraliza a imagem */
-    color: white; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
+    font-size: 0.7rem;
     text-align: center; /* Alinha o texto no centro */
-    line-height: 50px; /* Alinha verticalmente o texto */
+    line-height: 380px; /* Alinha verticalmente o texto */
     text-decoration: none; /* Remove sublinhado do link */
     border-radius: 5px; /* Bordas arredondadas */
     margin-right: 10px; /* Espaço entre os botões */
     margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
 
 }
 
