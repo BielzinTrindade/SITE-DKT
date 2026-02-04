@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Dkt Serviços e Buffet</title>
+    <meta name="description" content="descrição teste">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/pages.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+
+
+<body>
+    <header>
+        <button class="header-btn"> <img src="/img/buttons-img/ORC-BT.png" alt="Botão" /> </button>
+        <h1 class="h1">Dkt Serviços e Buffet</h1>
+        <h1 class="h1-mobile">Dkt Serviços e Buffet</h1>
+        <button class="header-btn-mobile"> <img src="/img/buttons-img/ORC-BT.png" alt="Botão" /> </button>
+    </header>
+    
+    <!-- Navbar Desktop - Barra de Navegação -->
+    <nav class="navbar">
+        <a href="/index.html" class="botão" id="inicioLink">Início</a>
+        <a href="buffet.html" class="botão" id="BuffetLink">Buffet</a>
+        <a href="servicos.html" class="botão" id="servicosLink">Serviços</a>
+        <a href="contato.html" class="botão" id="contatoLink">Contato</a>
+        <a href="avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+        <a href="galeria.html" class="botão" id="galeriaLink">Galeria</a>
+    </nav>
+    
+    <!-- Navbar Mobile - Barra de Navegação -->
+    <nav>
+    <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+    <div class="drawer" id="drawer">
+        <button onclick="window.location.href='/Index/index.html'">Início</button>
+        <button onclick="window.location.href='/Navbar/Nav/buffet.html'">Buffet</button>
+        <button onclick="window.location.href='/Navbar/Nav/servicos.html'">Serviços</button>
+        <button onclick="window.location.href='/Navbar/Nav/contato.html'">Contato</button>
+        <button onclick="window.location.href='/Navbar/Nav/avaliacoes.html'">Avaliações</button>
+        <button onclick="window.location.href='/Navbar/Nav/galeria.html'">Galeria</button>
+    </div>
+    </nav>
+
+    
+    <main>
+        <!-- Subtítulo Da Página -->
+        <section>
+            <h2>Buffet</h2>
+        </section>
+
+        <!-- Seção dos botões -->
+        <div class="button-container">
+            <section class="one-section">
+                <a href="/Navbar/buffet/festajunina.html" class="service-button" id="festajunina">Festa Junina</a>
+                <a href="/Navbar/buffet/feijoada.html" class="service-button" id="feijoada">Feijoada</a>
+                <a href="/Navbar/buffet/comidadeboteco.html" class="service-button" id="comidadeboteco">Comida de boteco</a>
+                <a href="/Navbar/buffet/strogonoff.html" class="service-button" id="strogonoff">Strogonoff</a>
+                <a href="/Navbar/buffet/entradas.html" class="service-button" id="entradas">Entradas</a>
+            </section>
+            <section class="two-section">
+                <a href="/Navbar/buffet/coffeebreak.html" class="service-button" id="coffeebreak">Coffee Break</a>
+                <a href="/Navbar/buffet/comidamexicana.html" class="service-button" id="comidamexicana">Comida Mexicana</a>
+                <a href="/Navbar/buffet/bolosedoces.html" class="service-button" id="bolosedoces">Bolos e Doces</a>
+                <a href="/Navbar/buffet/mesadefrios.html" class="service-button" id="mesadefrios">Mesa de Frios</a>
+                <a href="/Navbar/buffet/brunch.html" class="service-button" id="brunch">Brunch</a>
+            </section>
+            <section class="three-section">
+                <a href="/Navbar/buffet/aniversarioinfantil.html" class="service-button" id="aniversarioinfantil">Aniversário Infantil</a>
+                <a href="/Navbar/buffet/crepefrances.html" class="service-button" id="crepefrances">Crepe Francês</a>
+                <a href="/Navbar/buffet/churrasco.html" class="service-button" id="churrasco">Churrasco</a>
+                <a href="/Navbar/buffet/massas.html" class="service-button" id="massas">Massas</a>
+                <a href="/Navbar/buffet/casamento.html" class="service-button" id="casamento">Casamento</a>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        function toggleDrawer() {
+            var drawer = document.getElementById("drawer");
+            drawer.style.display = drawer.style.display === "block" ? "none" : "block";
+        }
+
+        function navigate(url) {
+            window.location.href = url;
+        }
+    </script>
+
+    <a href="https://wa.me/551971429749" target="_blank" class="whatsapp-btn"> <img src="/img/buttons-img/WTP-BC.png" alt="WhatsApp" /> </a>
+
+    <script src="script.js?v=2"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+<footer></footer>
+</html>

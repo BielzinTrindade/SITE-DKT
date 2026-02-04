@@ -1,0 +1,906 @@
+/* ================================
+   LAYOUT.CSS
+   Estrutura do site
+================================ */
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem;
+    background-color: #020b83;
+    text-align: center;
+}
+
+
+/* Botão orçamento no header */
+.header-btn {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header-btn img {
+    width: 100px;
+    height: auto;
+}
+
+.header-btn:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/* Botão orçamento mobile */
+.header-btn-mobile {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header-btn-mobile img {
+    width: 65px;
+    height: auto;
+}
+
+.header-btn-mobile:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Botão WhatsApp flutuante */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 999999;
+}
+
+.whatsapp-btn img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.whatsapp-btn:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Navegação */
+nav {
+    padding: 0.2rem;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    text-align: center;
+}
+
+nav a {
+    color: #ffbd59;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow:
+        -2px -2px 2px #000,
+         2px -2px 2px #000,
+        -2px  2px 2px #000,
+         2px  2px 2px #000;
+}
+
+/* Estrutura principal */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+header {
+    padding: 1.5rem;
+    background-color: #020b83;
+    text-align: center;
+}
+
+
+.menu-button {
+    background-color: #00000000;
+    color: #ffbd59;
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    max-width: 31rem;
+    margin: 0.1rem auto;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+}
+
+.drawer {
+    display: none;
+    margin-top: 0.1rem;
+    text-align: center;
+}
+
+.drawer button {
+    display: block;
+    width: 100%;
+    max-width: 31rem;
+    margin: 5px auto;
+    padding: 10px;
+    color: #ffbd59;
+    background-color: #00000000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Bree Serif", serif;
+}
+
+.menu-button.active,
+.drawer button.active {
+    background-color: #3a288d;
+}
+
+.drawer button:hover,
+.menu-button:hover {
+    background-color: #003660;
+}
+
+
+
+
+
+/* AVALIAÇOES JÁ FEITAS */
+/* AVALIAÇOES JÁ FEITAS */
+
+
+#avaliacoesExibidas {
+    margin-top: 40px;
+}
+
+.avaliacao {
+    background-color: #002d62;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avaliacao h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+     padding: 0.2rem;
+}
+
+.avaliacao p {
+    font-size: 1.1rem;
+    color: #f8f8f8;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+     1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+     1px  1px 1px #000000;
+     padding: 0.2rem;
+}
+
+.avaliacao strong {
+    color: #000000;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+     padding: 0.2rem;
+}
+
+
+/* ⭐ AVALIAÇÃO POR ESTRELAS */
+
+
+/* ===== ESTRELAS CLICÁVEIS ===== */
+.stars {
+    display: flex;
+    gap: 10px;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+}
+
+.stars span {
+    color: #444;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.stars span.active {
+    color: #ffbd59;
+}
+
+.stars span:hover {
+    transform: scale(1.2);
+}
+
+
+/* ===== ESTRELAS VISUALIZAÇÃO ===== */
+.stars-view {
+    font-size: 2rem;
+    color: #ffbd59;
+}
+
+
+
+
+
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ---------- BOTÕES BUFFET ------------ */
+/* ------------------------------------- */
+/* ------------------------------------- */
+
+
+#festajunina {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/JUNINA.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#feijoada {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/FEIJOADA.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#comidadeboteco {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/BOTECO.jpeg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+#strogonoff {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/STROGONOFF.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+#entradas {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/ENTRADAS.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#coffeebreak {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/COFFEEBREAK.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#comidamexicana {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/MEXICANA.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 1 !important;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#bolosedoces {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/BOLOSEDOCES.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#mesadefrios {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/MESAFRIOS.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+#brunch {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/BRUNCH.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 1 !important;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#aniversarioinfantil {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/INFANTIL.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 1 !important;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#crepefrances {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/CREPE.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#churrasco {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/CHURASCO.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#massas {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/MASSAS.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+
+
+#casamento {
+
+    display: flex;
+    background-image: url("/img/buttons-img/buffets/CASAMENTO.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 50px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+
+}
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ---------- BOTÕES SERVIÇOS ---------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+
+#cozinheira {
+    display: flex;
+    width: 200px; /* Largura do botão */
+    height: 300px; /* Altura do botão */
+    background-image: url("/img/buttons-img/servs/COZINHEIRA.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#copeira {
+    display: flex;
+    width: 200px; /* Largura do botão */
+    height: 300px; /* Altura do botão */
+    background-image: url("/img/buttons-img/servs/COPEIRA.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#garcom {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/GARCOM.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#churrasqueiro {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/CHURRASQUEIRO.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#barman {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/BARMAN.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#auxgeral {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/AUXILIAR.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#seguranca {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/SEGURANCA.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#auxlimpeza {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-image: url("/img/buttons-img/servs/AUXLIMPEZA.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.6rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+#recepcionista {
+    display: flex;
+    background-image: url("/img/buttons-img/servs/RECEPCIONISTA.png"); /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    align-items: flex-end; /* Alinha verticalmente o texto */
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 40px; /* Alinha verticalmente o texto */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px; /* Espaço entre os botões */
+    margin-bottom: 10px; /* Espaço entre as linhas de botões */
+    padding-bottom: 2px;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+    1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+    1px  1px 1px #000000;
+}
+
+
+
+
+/* Contêiner para os botões alinhados ao lado */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;            /* permite quebrar linha se necessário */
+    gap: 5rem;                  /* aproxima os botões */
+    justify-content: center;    /* alinha à esquerda */
+    margin-bottom: 2rem;        /* distância do próximo elemento, ex: h2 */
+}
+
+
+.button-container {
+  transition: 0.3s;
+}
+
+.button-container:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                         <!-- CSS padrão para Desktop -->
+        <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 768px)">
+                            <!-- CSS para Mobile -->
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+
+
+    <title>Churrasqueiro - DKT Serviços e Buffet</title>
+</head>
+<body>
+    <header>
+        <h1>Dkt Serviços e Buffet</h1>
+    </header>
+
+                <!--Navbar Desktop - Barra de Navegação-->
+    <nav class="navbar">
+        <a href="/Index/index.html" class="botão" id="inicioLink">Início</a>
+        <a href="/Navbar/Nav/buffet.html" class="botão" id="BuffetLink">Buffet</a>
+        <a href="/Navbar/Nav/servicos.html" class="botão" id="servicosLink">Serviços</a>
+        <a href="/Navbar/Nav/contato.html" class="botão" id="contatoLink">Contato</a>
+        <a href="/Navbar/Nav/avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+        <a href="/Navbar/Nav/galeria.html" class="botão" id="galeriaLink">Galeria</a>
+    </nav>
+
+                          <!--Navbar Mobile - Barra de Navegação-->
+        <nav>
+            <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+            <div class="drawer" id="drawer">
+                <button onclick="navigate('index.html')">Início</button>
+                <button onclick="navigate('Navbar/buffet.html')">Buffet</button>
+                <button onclick="navigate('Navbar/servicos.html')">Serviços</button>
+                <button onclick="navigate('Navbar/contato.html')">Contato</button>
+                <button onclick="navigate('Navbar/avaliacoes.html')">Avaliações</button>
+                <button onclick="navigate('Navbar/galeria.html')">Galeria</button>
+            </div>
+        </nav>
+
+        <!-- Subtítulo Da Página -->
+    <main>
+        <section class="h2">
+            <h2 class="titulo">Bolos e Doces</h2>
+        </section>
+    </main>
+
+    <section class="opc1">
+        <h2 class="subtitulo">Arraiá Tradicional &#127805;</h2>
+        <p class="conteudo">
+            Valor: R$ 35,00 por pessoa
+
+                Incluso:
+                Milho cozido, Pipoca, Cachorro-quente, Bolo de milho, Canjica, Pé-de-moleque, Refrigerante e água
+
+            Ideal para festas simples, escolares ou confraternizações menores.
+        </p>
+    </section>
+
+    <section class="opc2">
+
+        <div class="texto">
+        <h2 class="subtitulo">Arraiá Completo</h2>
+            <p class="conteudo">
+            Valor: R$ 55,00 por pessoa
+
+                Incluso:
+                Milho cozido, Pipoca, Cachorro-quente, Espetinho de frango e carne, Caldo verde, Canjica, 
+                Bolo de milho e bolo de fubá, Paçoca e pé-de-moleque, Refrigerante, água e suco.
+
+            Perfeito para quem quer variedade e um clima junino bem caprichado.
+        </p>
+        </div>
+        
+        <img src="IMG/ImgSection/FJ1.jpg" alt="Arraiá Completo" class="img-right">
+        <img src="IMG/ImgSection/FJ2.jpg" alt="Arraiá Completo" class="img-right"> 
+        <img src="IMG/ImgSection/FJ3.jpg" alt="Arraiá Completo" class="img-right"> 
+
+    </section>
+
+    <section class="opc3">
+        <h2 class="subtitulo">Arraiá Premium</h2>
+        <p class="conteudo">
+            Valor: R$ 35,00 por pessoa
+
+                Incluso:
+                Milho cozido
+                Pipoca
+                Cachorro-quente
+                Bolo de milho
+                Canjica
+                Pé-de-moleque
+                Refrigerante e água
+                
+            Ideal para festas simples, escolares ou confraternizações menores.
+        </p>
+    </section>
+
+</body>
+</html>

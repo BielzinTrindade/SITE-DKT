@@ -1,0 +1,234 @@
+/* ================================
+   RESPONSIVE.CSS
+   Mobile e Desktop
+================================ */
+
+/* -------- MOBILE -------- */
+@media (max-width: 768px) {
+
+    /* Background mobile */
+    body {
+        background-image: url("/img/BC DKT MOBILE.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    /* Esconder BT-ORC no mobile */
+    .header-btn {
+        display: none !important;
+    }
+
+
+    /* Esconder h1 no mobile */
+     .h1 {
+        display: none !important;
+     }
+
+
+    /* Esconder navbar desktop */
+    .navebar,
+    .botão {
+        display: none !important;
+    }
+
+
+    /* Formulário mobile */
+    .form-container {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+
+
+    .tx-inicial {
+    align-items: center;
+    max-width: 400px;
+    color: #ffffff;
+    font-family: "Bree Serif", serif;
+    position: relative;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    border: 1px solid #ffbd59;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+    .tx-inicial p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+
+
+    /* Avaliaçoes */
+    form input,
+    form textarea {
+        font-size: 1rem;
+    }
+
+    form button {
+        font-size: rem;
+    }
+
+    /* Logo ajuste */
+    .logo-box img {
+        max-width: 100%;
+    }
+
+
+ /* Ajuste geral dos botões de buffet e serviços */
+    #coffeebreak,
+    #festajunina,
+    #feijoada,
+    #comidadeboteco,
+    #strogonoff,
+    #entradas,
+    #comidamexicana,
+    #bolosedoces,
+    #mesadefrios,
+    #brunch,
+    #aniversarioinfantil,
+    #crepefrances,
+    #churrasco,
+    #massas,
+    #casamento,
+    #cozinheira,
+    #copeira,
+    #garcom,
+    #churrasqueiro,
+    #barman,
+    #auxgeral,
+    #seguranca,
+    #auxlimpeza {
+        width: 120px !important;   /* Largura menor no celular */
+        height: 250px !important;  /* Altura menor no celular */
+        font-size: 18px !important; /* Texto menor */
+        line-height: 25px !important; /* Ajuste vertical */
+    }
+
+
+    #recepcionista {
+        width: 120px !important;   /* Largura menor no celular */
+        height: 250px !important;  /* Altura menor no celular */
+        font-size: 11px !important; /* Texto menor */
+        line-height: 25px !important; /* Ajuste vertical */        
+    }
+
+
+    /* Ajuste do container */
+    .button-container {
+        width: 100%;  /* ocupa a tela inteira */
+        max-width: none; 
+        height: auto;
+        gap: 1rem; /* diminui espaço entre botões */
+        justify-content: center;
+    }
+}
+
+
+/* -------- DESKTOP -------- */
+@media (min-width: 769px) {
+
+    /* Background desktop */
+    body {
+        background-image: url("/img/BC.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    /* Layout do formulário */
+.form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin-left: 450px;
+    width: 500px;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+
+
+    .tx-inicial {
+    max-width: 600px;
+    color: #ffffff;
+    font-family: "Bree Serif", serif;
+    margin-right: 450px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    border: 1px solid #ffbd59;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+
+
+    /* Esconder BT-ORC-MOBILE no desktop */
+    .header-btn-mobile {
+        display: none !important;
+    }
+    
+
+    /* Esconder h1-mobile no desktop */
+     .h1-mobile {
+        display: none !important;
+     }
+
+
+    /* Esconder menu mobile */
+    .menu-button,
+    .drawer {
+        display: none !important;
+    }  
+
+
+ /* Ajuste geral dos botões de buffet e serviços */
+    #coffeebreak,
+    #festajunina,
+    #feijoada,
+    #comidadeboteco,
+    #strogonoff,
+    #entradas,
+    #comidamexicana,
+    #bolosedoces,
+    #mesadefrios,
+    #brunch,
+    #aniversarioinfantil,
+    #crepefrances,
+    #churrasco,
+    #massas,
+    #casamento,
+    #cozinheira,
+    #copeira,
+    #garcom,
+    #churrasqueiro,
+    #barman,
+    #auxgeral,
+    #seguranca,
+    #recepcionista {
+        width: 200px !important;   /* Largura menor no celular */
+        height: 300px !important;  /* Altura menor no celular */
+        font-size: 1.8rem !important; /* Texto menor */
+        line-height: 40px !important; /* Ajuste vertical */
+    }
+
+    /* Ajuste do container */
+    .button-container {
+        width: 100%;  /* ocupa a tela inteira */
+        max-width: none; 
+        height: auto;
+        gap: 5rem; /* diminui espaço entre botões */
+        justify-content: center;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <title>Dkt Serviços e Buffet</title>
+        <meta name="description" content="descrição teste">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/pages.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">       
+    </head>
+    <body>
+    <header>
+        <h1 class="h1">Dkt Serviços e Buffet</h1>
+        <h1 class="h1-mobile">Dkt Serviços e Buffet</h1>
+    </header>
+
+                        <!--Navbar Desktop - Barra de Navegação-->
+    <nav class="navbar">
+        <a href="/Index/index.html" class="botão" id="inicioLink">Início</a>
+        <a href="buffet.html" class="botão" id="BuffetLink">Buffet</a>
+        <a href="servicos.html" class="botão" id="servicosLink">Serviços</a>
+        <a href="contato.html" class="botão" id="contatoLink">Contato</a>
+        <a href="avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+        <a href="galeria.html" class="botão" id="galeriaLink">FQA</a>
+    </nav>
+
+                          <!--Navbar Mobile - Barra de Navegação-->
+        <nav>
+            <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+            <div class="drawer" id="drawer">
+                <button onclick="navigate('../index.html')">Início</button>
+                <button onclick="navigate('buffet.html')">Buffet</button>
+                <button onclick="navigate('servicos.html')">Serviços</button>
+                <button onclick="navigate('contato.html')">Contato</button>
+                <button onclick="navigate('avaliacoes.html')">Avaliações</button>
+                <button onclick="navigate('galeria.html')">Galeria</button>
+            </div>
+        </nav>
+        
+        <main>
+            <main>
+
+    <!-- Subtítulo da Página -->
+    <section class="page-title">
+        <h2>Perguntas Frequentes</h2>
+        <p class="subtitle">Tire suas dúvidas antes de solicitar seu orçamento</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-container">
+
+        <details class="faq-item">
+            <summary>Com quanto tempo de antecedência devo contratar?</summary>
+            <p>Recomendamos contratar com pelo menos 15 dias de antecedência, porém consulte nossa disponibilidade.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>O buffet leva toda a estrutura?</summary>
+            <p>Sim, levamos equipe, utensílios e toda a estrutura conforme o pacote contratado.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Quantas pessoas vocês atendem?</summary>
+            <p>Atendemos eventos pequenos, médios e grandes, de acordo com a necessidade do cliente.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Quais tipos de eventos vocês realizam?</summary>
+            <p>Aniversários, festas juninas, eventos corporativos, coffee break, confraternizações e outros.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Quais cidades vocês atendem?</summary>
+            <p>Atendemos toda a região. Consulte-nos para verificar disponibilidade.</p>
+        </details>
+
+        <!-- CTA -->
+        <div class="faq-cta">
+            <p>Ficou com alguma dúvida?</p>
+            <a href="https://wa.me/5511953978862" target="_blank">
+                Falar no WhatsApp
+            </a>
+        </div>
+
+    </section>
+
+</main>
+
+        </main>
+
+
+
+        <script>
+
+            function toggleDrawer() {
+                var drawer = document.getElementById("drawer");
+                drawer.style.display = drawer.style.display === "block" ? "none" : "block";
+            }
+
+            function navigate(url) {
+            window.location.href = url;
+            }
+
+        </script>
+
+        <script src="script.js?v=2"></script>
+
+    </body>
+
+    <footer></footer>
+    
+</html>

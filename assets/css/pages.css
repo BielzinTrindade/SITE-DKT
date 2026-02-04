@@ -1,0 +1,309 @@
+/* ================================
+   PAGES.CSS
+   Estilos específicos de páginas
+================================ */
+
+/* ===== FORMULÁRIO ORÇAMENTO ===== */
+
+#formOrcamento {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+}
+
+/* Inputs e select */
+#formOrcamento input,
+#formOrcamento select {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px 14px;
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid #020b83;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Placeholder */
+#formOrcamento input::placeholder {
+    color: #d1d1d1;
+}
+
+/* Focus */
+#formOrcamento input:focus,
+#formOrcamento select:focus {
+    border-color: #ffbd59;
+    box-shadow: 0 0 5px rgb(255, 189, 89);
+}
+
+/* Checkbox */
+#formOrcamento label {
+    display: inline;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    margin: 10px 0 18px;
+}
+
+#formOrcamento label input {
+    width: auto;
+    margin-right: 8px;
+}
+
+/* Botão enviar */
+#formOrcamento button {
+    width: 100%;
+    padding: 14px;
+    background: #020b83;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formOrcamento button:hover {
+    background: #ffbd59;
+    transform: scale(1.02);
+}
+
+
+.form-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* TEXTO INICIAL */
+
+.tx-inicial p {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", Sans-serif !important;
+    font-weight: 100;
+    text-shadow: 
+        -1px -1px 1px #000,
+         1px -1px 1px #000,
+        -1px  1px 1px #000,
+         1px  1px 1px #000;
+}
+
+
+#tx-n {
+    font-weight: 600;
+    color: #ffbd59;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* AVALIAÇOES */
+        /* AVALIAÇOES */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+form {
+    background-color: #002d62;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+
+#nome,
+#evento,
+#avaliacao,
+#avaliacaoEstrelas  {
+    font-size: 1.5rem;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 
+    -1px -1px 1px #ffbd59,  
+     1px -1px 1px #ffbd59,  
+    -1px  1px 1px #ffbd59,  
+     1px  1px 1px #ffbd59;
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffbd59;
+    background-color: #161718;
+    color: #ffbd59;
+    font-size: 1rem;
+}
+
+form button {
+    background-color:  #ffbd59;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Bree Serif", serif;
+}
+
+form button:hover {
+    background-color: #f59505;
+}
+
+
+/* Logo ao lado do formulário */
+.logo-box img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================
+   FAQ - Perguntas Frequentes
+================================ */
+
+.page-title {
+    text-align: center;
+    margin: 60px 20px 30px;
+}
+
+.page-title h2 {
+    color: #d4af37;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.page-title .subtitle {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    padding: 30px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    background: #0b2c5f;
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.faq-item summary {
+    list-style: none;
+    font-size: 1.1rem;
+    color: #d4af37;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item p {
+    margin-top: 15px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* CTA */
+.faq-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.faq-cta p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #d1d1d1;
+}
+
+.faq-cta a {
+    display: inline-block;
+    background: #25d366;
+    color: #fff;
+    text-shadow: 
+    -1px -1px 1px #000000,  
+     1px -1px 1px #000000,  
+    -1px  1px 1px #000000,  
+     1px  1px 1px #000000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.faq-cta a:hover {
+    background: #1ebe5d;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .page-title h2 {
+        font-size: 2rem;
+    }
+
+    .faq-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}

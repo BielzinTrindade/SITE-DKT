@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <title>Dkt Serviços e Buffet</title>
+        <meta name="description" content="descrição teste">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/pages.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">             
+    </head>
+    
+    <body>
+        <header>
+            <button class="header-btn"> <img src="/img/buttons-img/ORC-BT.png" alt="Botão" /> </button>
+            <h1 class="h1">Dkt Serviços e Buffet</h1>
+            <h1 class="h1-mobile">Dkt Serviços e Buffet</h1>
+            <button class="header-btn-mobile"> <img src="/img/buttons-img/ORC-BT.png" alt="Botão" /> </button>
+        </header>
+
+                        <!--Navbar Desktop - Barra de Navegação-->
+    <nav class="navbar">
+        <a href="index.html" class="botão" id="inicioLink">Início</a>
+        <a href="/pages/Nvb/buffet.html" class="botão" id="BuffetLink">Buffet</a>
+        <a href="/pages/Nvb/servicos.html" class="botão" id="servicosLink">Serviços</a>
+        <a href="/pages/Nvb/contato.html" class="botão" id="contatoLink">Contato</a>
+        <a href="/pages/Nvb/avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+        <a href="/pages/Nvb/galeria.html" class="botão" id="galeriaLink">Galeria</a>
+    </nav>
+
+                          <!--Navbar Mobile - Barra de Navegação-->
+        <nav>
+            <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+            <div class="drawer" id="drawer">
+                <button onclick="navigate('index.html')">Início</button>
+                <button onclick="navigate('/pages/Nvb/buffet.html')">Buffet</button>
+                <button onclick="navigate('/pages/Nvb/servicos.html')">Serviços</button>
+                <button onclick="navigate('/pages/Nvb/contato.html')">Contato</button>
+                <button onclick="navigate('/pages/Nvb/avaliacoes.html')">Avaliações</button>
+                <button onclick="navigate('/pages/Nvb/galeria.html')">Galeria</button>
+            </div>
+
+        </nav>
+        
+        <main>
+
+            <section>
+        <div class="form-container">
+
+            <div class="form-box">
+               <form id="formOrcamento">
+    <input type="text" id="Nome" placeholder="Nome" required>
+
+    <input type="tel" id="telefone" placeholder="Telefone / WhatsApp" required>
+
+    <input type="text" id="cidade" placeholder="Cidade do Evento" required>
+
+    <!-- Formulario de Orçamento -->
+    <select id="tipoEvento" required>
+        <option value="">Tipo de Evento</option>
+        <option value="Aniversário">Aniversário</option>
+        <option value="Casamento">Casamento</option>
+        <option value="Festa Corporativa">Festa Corporativa</option>
+        <option value="Confraternização">Confraternização</option>
+        <option value="Outros">Outros</option>
+    </select>
+
+    <input type="number" id="convidados" placeholder="Número de Convidados" required>
+
+    <span class="hint">Data do Evento</span> <input type="date">
+
+
+    <label>
+        <input type="checkbox" id="termos" required>
+        Estou de acordo com os <a href="termos.html" target="_blank">Termos de Privacidade</a>
+    </label>
+
+    <button type="submit">Solicitar Orçamento</button>
+<form>
+    </div>
+
+        <div class="tx-inicial">
+            
+            <p>
+                Oferecemos um cardápio completo e cuidadosamente selecionado para transformar
+                seu evento em uma experiência inesquecível. Nossos serviços incluem opções
+                que agradam a todos os paladares, com pratos preparados com ingredientes de
+                alta qualidade, sabor marcante e apresentação impecável. 
+            </p>
+
+            <p>
+                Levamos até você toda a estrutura necessária para o sucesso do seu evento,
+                contando com uma equipe experiente, treinada e uniformizada, pronta para
+                garantir um atendimento atencioso e eficiente do início ao fim da celebração.
+            </p>
+
+            <p id="tx-n">
+                Preencha o formulário ao lado e solicite seu orçamento. Deixe o seu evento
+                nas mãos de quem entende de sabor, organização e excelência no atendimento!
+            </p>
+
+        </div>
+    </div>
+         </section>
+        </main>
+
+        
+        <a href="https://wa.me/551971429749" target="_blank" class="whatsapp-btn"> <img src="/img/buttons-img/WTP-BC.png" alt="WhatsApp" /> </a>
+
+        <script src="Js/mobile.js"></script>
+        <script src="Js/form.js"></script>
+        <script src="/js/main.js"></script>
+
+    </body>
+
+    <footer></footer>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

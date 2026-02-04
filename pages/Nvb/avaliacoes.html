@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Dkt Serviços e Buffet</title>
+    <meta name="description" content="descrição teste">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/pages.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <header>
+        <h1 class="h1">Dkt Serviços e Buffet</h1>
+        <h1 class="h1-mobile">Dkt Serviços e Buffet</h1>
+    </header>
+
+                     <!--Navbar Desktop - Barra de Navegação-->
+                     <nav class="navbar">
+                        <a href="/Index/index.html" class="botão" id="inicioLink">Início</a>
+                        <a href="buffet.html" class="botão" id="BuffetLink">Buffet</a>
+                        <a href="servicos.html" class="botão" id="servicosLink">Serviços</a>
+                        <a href="contato.html" class="botão" id="contatoLink">Contato</a>
+                        <a href="avaliacoes.html" class="botão" id="avaliacoesLink">Avaliações</a>
+                        <a href="galeria.html" class="botão" id="galeriaLink">Galeria</a>
+                    </nav>
+
+                      <!--Navbar Mobile - Barra de Navegação-->
+                      <nav>
+                        <button class="menu-button" onclick="toggleDrawer()">Menu</button>
+                        <div class="drawer" id="drawer">
+                            <button onclick="navigate('../index.html')">Início</button>
+                            <button onclick="navigate('buffet.html')">Buffet</button>
+                            <button onclick="navigate('servicos.html')">Serviços</button>
+                            <button onclick="navigate('contato.html')">Contato</button>
+                            <button onclick="navigate('avaliacoes.html')">Avaliações</button>
+                            <button onclick="navigate('galeria.html')">Galeria</button>
+                        </div>
+                    </nav>
+
+<main>
+        <section>
+            <h2>Avaliações</h2>
+
+            <!-- Exibição das Avaliações -->
+        <section id="avaliacoesExibidas">
+            <!-- As avaliações serão exibidas aqui -->
+        </section>
+
+
+    </section>
+
+        <!-- Formulário de Avaliação -->
+        <section>
+           <form id="formAvaliacao">
+    <label for="nome" id="nome">Nome:</label>
+    <input type="text" id="nome" required><br><br>
+
+    <label for="evento" id="evento">Tipo de Evento:</label>
+    <input type="text" id="evento" required><br><br>
+
+    <label for="avaliacao" id="avaliacao">Avaliação:</label>
+    <textarea id="avaliacao" required></textarea><br><br>
+
+    <!-- ⭐ ESTRELAS -->
+    <label id="avaliacaoEstrelas">Avaliação em estrelas:</label><br>
+    <div class="stars">
+        <span data-value="1">★</span>
+        <span data-value="2">★</span>
+        <span data-value="3">★</span>
+        <span data-value="4">★</span>
+        <span data-value="5">★</span>
+    </div>
+
+    <input type="hidden" id="estrelas" value="0">
+    <br>
+
+    <button type="submit">Enviar Avaliação</button>
+</form>
+        </section>
+
+</main>
+
+    <script type="module" src="Js/avaliacoes.js"></script>
+    <script src="/js/main.js"></script>
+
+
+    <footer></footer>
+</body>
+</html>
